@@ -23576,7 +23576,7 @@ var companies = [
     "2023 Pride Post Twitter": "",
     "IG @": "@Comcast",
     "Twitter @": "@Comcast",
-    "Emails": "Jennifer_Khoury@Comcast.com, jeffrey_buzzelli@cable.comcast.com, brian_roberts@comcast.net, brian_roberts@comcast.com,"
+    "Emails": "Jennifer_Khoury@Comcast.com, jeffrey_buzzelli@cable.comcast.com, brian_roberts@comcast.net, brian_roberts@comcast.com"
   },
   {
     "COMPANY": "AT&T",
@@ -23596,7 +23596,7 @@ var companies = [
   {
     "COMPANY": "WALMART",
     "Parent Company": "",
-    "Subsidiaries & Products": "Walmart, Sam's Club, Jet.com,",
+    "Subsidiaries & Products": "Walmart, Sam's Club, Jet.com",
     "To Candidates": "$606,800",
     "To PACs": "$2,094,418",
     "TOTAL": "$2,701,218",
@@ -24041,7 +24041,7 @@ var companies = [
     "2023 Pride Post Twitter": "",
     "IG @": "@Meta",
     "Twitter @": "@Meta",
-    "Emails": "naomi@fb.com, jolivan@fb.com, MZuckerberg@fb.com,"
+    "Emails": "naomi@fb.com, jolivan@fb.com, MZuckerberg@fb.com"
   },
   {
     "COMPANY": "CAPITAL ONE",
@@ -24266,7 +24266,7 @@ var companies = [
     "2023 Pride Post Twitter": "",
     "IG @": "@GoCarvana",
     "Twitter @": "@Carvana, @CarvanaHelp",
-    "Emails": "ernie.garcia@carvana.com,"
+    "Emails": "ernie.garcia@carvana.com"
   },
   {
     "COMPANY": "TURO, INC.",
@@ -24281,7 +24281,7 @@ var companies = [
     "2023 Pride Post Twitter": "",
     "IG @": "@turo",
     "Twitter @": "@turo",
-    "Emails": "vmathew.turo, twang@turo.com, rrasalan@turo.com,"
+    "Emails": "vmathew.turo, twang@turo.com, rrasalan@turo.com"
   },
   {
     "COMPANY": "PAYPAL",
@@ -24416,7 +24416,7 @@ var companies = [
     "2023 Pride Post Twitter": "",
     "IG @": "@MLB",
     "Twitter @": "@MLB",
-    "Emails": "MLBExecutiveRelationsCS@mlb.com, rob.manfred@mlb.com,"
+    "Emails": "MLBExecutiveRelationsCS@mlb.com, rob.manfred@mlb.com"
   },
   {
     "COMPANY": "SMILEDIRECTCLUB",
@@ -24596,7 +24596,7 @@ var companies = [
     "2023 Pride Post Twitter": "",
     "IG @": "@Wendys",
     "Twitter @": "@Wendys",
-    "Emails": "todd.penegor@wendys.com,"
+    "Emails": "todd.penegor@wendys.com"
   },
   {
     "COMPANY": "TARGET CORPORATION",
@@ -24896,7 +24896,7 @@ var companies = [
     "2023 Pride Post Twitter": "",
     "IG @": "@brownforman",
     "Twitter @": "@brownforman",
-    "Emails": "Investor_Relations@b-f.com, community@b-f.com, brown-forman@b-f.com,"
+    "Emails": "Investor_Relations@b-f.com, community@b-f.com, brown-forman@b-f.com"
   },
   {
     "COMPANY": "GHOST MANAGEMENT GROUP LLC",
@@ -24926,7 +24926,7 @@ var companies = [
     "2023 Pride Post Twitter": "",
     "IG @": "@RobinhoodApp",
     "Twitter @": "@RobinhoodApp",
-    "Emails": "Vlad@robinhood.com,"
+    "Emails": "Vlad@robinhood.com"
   },
   {
     "COMPANY": "FORHIMS",
@@ -24971,7 +24971,7 @@ var companies = [
     "2023 Pride Post Twitter": "",
     "IG @": "@Airbnb",
     "Twitter @": "@Airbnb, @AirbnbHelp",
-    "Emails": "tara.bunch@airbnb.com, catherine.powell@airbnb.com, brian.chesky@airbnb.com,"
+    "Emails": "tara.bunch@airbnb.com, catherine.powell@airbnb.com, brian.chesky@airbnb.com"
   },
   {
     "COMPANY": "INSPIRE BRANDS",
@@ -25016,7 +25016,7 @@ var companies = [
     "2023 Pride Post Twitter": "",
     "IG @": "@Instacart",
     "Twitter @": "@Instacart",
-    "Emails": "apoorva@instacart.com,"
+    "Emails": "apoorva@instacart.com"
   },
   {
     "COMPANY": "KRAFT HEINZ FOODS COMPANY",
@@ -25076,7 +25076,7 @@ var companies = [
     "2023 Pride Post Twitter": "",
     "IG @": "@7eleven",
     "Twitter @": "@7eleven",
-    "Emails": "joseph.depinto@7-11.com,"
+    "Emails": "joseph.depinto@7-11.com"
   },
   {
     "COMPANY": "SeatGeek, Inc.",

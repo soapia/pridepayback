@@ -78,19 +78,19 @@ td .a {
   clear: both;
 } */
 
-/* table { */
-  /* width: 80%;
-  margin: auto; */
+table {
+  /* width: 80%; */
+  margin: auto;
   /* height: 400px; 
   width: 80%;
-  margin: auto;
-} */
+  margin: auto; */
+}
 
-thead {
+/* thead { */
   /* position: sticky; make the table heads sticky */
   /* top: 0px;
   background-color: white; */
-}
+/* } */
 
 .scroll {
   /* overflow-y: scroll; */
@@ -366,3 +366,4 @@ select {
   max-height: 150px;
   margin: 10px;
 }
+
