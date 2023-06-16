@@ -323,7 +323,7 @@ $(document).ready(function() {
                   toReturn = ''
                   if (full[11] != '') {
                     ig = full[11].replace("@", "")
-                    toReturn = '<a class="btn btn-info btn-sm" target="_blank" href="instagram.com/' + ig + '""><i class="fa-brands fa-instagram"></i></a>'
+                    toReturn = '<a class="btn btn-info btn-sm" target="_blank" href="https://instagram.com/' + ig + '""><i class="fa-brands fa-instagram"></i></a>'
                   }
                   return toReturn
                 }
