@@ -1,0 +1,368 @@
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 300;
+
+}
+
+.cards tbody tr {
+  float: left;
+  width: 10rem;
+  margin: 0.5rem;
+  border: 0.1rem solid black;
+  border-radius: .25rem;
+  height: 275px;
+  text-align: center;
+}
+
+thead {
+  display: none;
+}
+
+.cards tbody td {
+  display: block;
+}
+
+.smaller {
+  font-size: 75%
+}
+
+.title {
+  font-weight: bold;
+}
+
+.cards tbody td:has(i) {
+  display: inline !important;
+}
+
+td .a {
+  display: block;
+  float: left;
+}
+
+.row{
+  padding: 30px;
+  text-align: right;
+}
+
+.option p {
+  margin: 0;
+}
+/* Float four columns side by side */
+/* .column {
+  float: left;
+  width: 16.66%;
+  padding: 0 10px;
+  height: 270px;
+} */
+
+/* Remove extra left and right margins, due to padding */
+/* .row {margin: 0 -5px;} */
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* table { */
+  /* width: 80%;
+  margin: auto; */
+  /* height: 400px; 
+  width: 80%;
+  margin: auto;
+} */
+
+thead {
+  /* position: sticky; make the table heads sticky */
+  /* top: 0px;
+  background-color: white; */
+}
+
+.scroll {
+  /* overflow-y: scroll; */
+    background-color: white;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 30%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .right {
+    float: right;
+    margin-left: 0px;
+  }
+  
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 200px;
+}
+
+table img {
+  max-width: 100%;
+  max-height: 100px;
+  
+}
+
+dialog {
+  width: 80%;
+  /*border-radius: 25px;*/
+  border: 2px solid Black;
+  padding: 15px 15px 15px 15px;
+  margin: 20px 20px 20px 20px;
+  background: #A4D3EE;
+  overflow: visible;
+  box-shadow: 5px 5px 2px #888888;
+  position: relative;
+}
+
+#x {
+    position: absolute;
+    background: red;
+    color: white;
+    top: -10px;
+    right: -10px;
+}
+
+/* .expandMe:before {
+    content: "+";
+    display: block;
+    cursor: pointer;
+}
+.expandMe.selected:before {
+    content: "-";
+} */
+/* .childCell {
+    display: none;
+}
+.childCell table {
+    border: 2px solid #555;
+} */
+
+:root {
+  --black: #000;
+  --white: #fff;
+}
+
+h1{
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+p{
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+a{
+  color: #295da7;
+  font-weight: 600;
+}
+
+.row i {
+  color: white;
+}
+
+body{
+  background-color: black;
+  margin: 0;
+}
+
+header{
+  min-height: 100vh;
+  color: white;
+}
+
+nav{
+  background-color: white;
+  height: 80px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.welcome p, .welcome h1{
+  margin: 10px 10%;
+}
+
+
+#header-logo{
+  width: 150px;
+  height: auto;
+}
+
+#gz4c{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+#gz4c-logo{
+  width: 50px;
+  transition: .2s;
+
+}
+
+#gz4c-logo:hover{
+  width: 60px;
+  transition: .2s;
+}
+
+section{
+  background-color: white;
+  padding: 20px 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section h1, section p{
+  max-width: 600px;
+}
+
+article{
+  padding: 20px 5%;
+  background-color: #f9b00d;
+  text-align: center;
+  border-radius: 10px;
+  
+}
+
+.article-inclusion{
+  max-height: 300px;
+}
+
+tbody{
+  margin: auto;
+}
+
+#table_filter{
+  padding: 20px;
+}
+
+input[type="search"]{
+  width: 300px;
+}
+
+button{
+  color: white;
+  background: none;
+  border: 2px white solid;
+  border-radius: 3px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 10px 15px;
+  margin: 30px auto;
+
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+  transition: .3s;
+}
+
+.by {
+  color: black;
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.by:hover{
+  background-color: black;
+  color: white;
+  transition: .3s;
+}
+
+.email {
+  color: black;
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 4px;
+  text-decoration: none;
+  margin-top: 3px;
+}
+
+select {
+  color: black;
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  margin-left: 10px;
+}
+
+.option {
+  display: inline-block;
+  margin: 10px;
+}
+
+.option p {
+  font-weight: bold;
+}
+
+.sort {
+  margin-bottom: 7px !important;
+}
+
+#examples{
+  display: flex;
+  flex-wrap: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  
+}
+
+#examples img{
+  max-width: 16%;
+  max-height: 150px;
+  margin: 10px;
+}

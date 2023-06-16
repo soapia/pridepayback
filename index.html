@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pay Back Pride</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+  <link
+    href="https://cdn.datatables.net/v/dt/dt-1.13.4/b-2.3.6/cr-1.6.2/fc-4.2.2/fh-3.3.2/r-2.4.1/rg-1.3.1/sc-2.1.1/sb-1.4.2/sp-2.1.2/sl-1.6.2/datatables.min.css"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/84911a2190.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img id="header-logo" src="logo.png" alt="Pay Back Pride">
+    </nav>
+    <div class="welcome">
+      <h1>Pay back PRIDE.</h1>
+
+      <div class="about">
+        <p>Every June, large corporations change their profile pictures and stock shelves with rainbow-colored products
+          to “support” pride, yet simultaneously donate hundreds of thousands—if not millions—of dollars to Anti-LGBTQ+
+          politicians and PACs. This comes at a time when anti-LGBTQ+ legislation is sweeping the nation, with over 500 bills introduced in the most recent legislative session, and 87 passing in 23 states (<a
+        href="https://translegislation.com/"><small>Trans Legislation Tracker</small></a>). Performative allyship sucks–that’s why this year, we are asking corporations to put their money
+          where their mouths are. </p>
+      </div>
+      <div id="examples">
+        <img src="assets/welcome-examples/visa_example.png">
+        <img src="assets/welcome-examples/target_example.png">
+        <img src="assets/welcome-examples/coke_example.png">
+        <img src="assets/welcome-examples/uber_example.png">
+        <img src="assets/welcome-examples/amazon_example.png">
+      </div>
+       <a href="#take-action"><button>Act Now</button></a>
+    </div>
+  </header>
+  <section id="take-action">
+    <h1>Take Action</h1>
+    <p>We summed up donation records from over 100 companies to PACs (RSLC, RAGA, and RGA) and state legislators in the 23 states that have passed and implemented anti-LGBTQ+ laws. Find your favorite companies and brands, and in a few clicks, let them know that solidarity is not for sale.</p>
+
+<!-- <article>
+      <img class="article-inclusion" src="chipotle-tweet.webp">
+    </article> -->
+
+
+
+  </section>
+
+
+
+  <br>
+  <div class="scroll">
+    <div class="option left">
+      <p class="sort">Sort By:</p>
+      <a class="by name">Name</a>
+      <a class="by money">Donation Amount</a>
+    </div>
+    <div class="option right">
+      <p>Filter By Category:</p>
+      <select name="categories" id="categories">
+      </select>
+    </div>
+    
+    <table id="table" class="cards">
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+
+  <br>
+  <div class="row">
+    <i>Data from <a href="https://translegislation.com/bills/2023/passed" target="_blank">Trans Legislation Tracker</a>,
+      <a href="https://hrc-prod-requests.s3-us-west-2.amazonaws.com/LGBTQ-Guidebook-for-Action.pdf"
+        target="_blank">Human Rights Watch</a>, <a href="followthemoney.org/" target="_blank">Follow The Money</a>, and
+      the <a href="https://forms.irs.gov/app/pod/dataDownload/dataDownload" target="_blank">Internal Revenue
+        Service (2018-2022)</a></i>
+  </div>
+
+   <div id="gz4c">
+    <a href="https://www.genzforchange.org"><img id="gz4c-logo" src="genzlogo.png" alt="Gen-Z for Change"></a>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.slim.js"
+    integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"></script>
+  <script src="data.js"></script>
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+  <script
+    src="https://cdn.datatables.net/v/dt/dt-1.13.4/b-2.3.6/cr-1.6.2/fc-4.2.2/fh-3.3.2/r-2.4.1/rg-1.3.1/sc-2.1.1/sb-1.4.2/sp-2.1.2/sl-1.6.2/datatables.min.js"></script>
+
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
